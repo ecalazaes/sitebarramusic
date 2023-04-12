@@ -1,0 +1,386 @@
+@charset "utf-8";
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+Body,html {
+	font-family: 'Oswald', sans-serif;
+	width: 100%;
+	height: 100%;	
+}
+
+
+header#cabecalho {
+	width:100%;
+	height:180px;	
+	
+}
+
+header#cabecalho div#logo {
+	width:980px;
+	height:180px;
+	padding-top:80px;
+	margin:auto;	
+	/*background-color:gray;*/
+}
+
+nav#menu {
+	width:480px;
+	height:29px;
+	padding-top:0px;
+	padding-left:40px;			
+	margin:auto;
+		
+}
+
+nav#menu ul {
+	list-style:none;
+}
+
+nav#menu ul li {	
+	display:inline;
+	padding: 0px 10px;			
+}
+	
+
+nav#menu ul li a {	
+	text-decoration:none;
+	color:#FBF4F4;
+	
+}
+
+nav#menu ul li a:hover {	
+	color: rgba(237,22,81,1.0);
+	transition: 0.5s;
+	
+}
+
+
+
+section#videofundo video.bg_video {
+		position: fixed; 
+		right: 0; 
+		bottom: 0;
+		min-width: 100%; 
+		min-height: 100%;
+		width: auto; 
+		height: auto; 
+		z-index: -1000;
+		background: url(images/torre.jpg) no-repeat;
+		background-size: cover;
+}
+	
+
+section#atracao {
+	width:100%px;
+	height:630px;
+	margin-top: 15px;
+	margin-bottom:10px;
+	
+}
+
+section#atracao div#maeatra {
+	width:980px;
+	height:630px;		
+	margin: auto;
+}
+
+section#atracao div#maeatra div#atra1 {
+	width:300px;
+	height:300px;
+	float:left;
+	
+}
+
+section#atracao div#maeatra div#atra2 {
+	width:300px;
+	height:300px;
+	float:left;	
+	margin-left:40px;	
+}
+
+section#atracao div#maeatra div#atra3 {
+	width:300px;
+	height:300px;
+	float:left;	
+	margin-left:40px;	
+}
+
+section#atracao div#maeatra div#atra4 {
+	width:300px;
+	height:300px;
+	float:left;	
+	margin-top:20px;
+	
+}
+
+section#atracao div#maeatra div#atra5 {
+	width:300px;
+	height:300px;
+	float:left;	
+	margin-top:20px;
+	margin-left:40px;
+	
+}
+
+section#atracao div#maeatra div#atra6 {
+	width:300px;
+	height:300px;
+	float:left;	
+	margin-top:20px;
+	margin-left:40px;
+	
+}
+
+section#informacao {
+	width:100%;
+	height:400px;
+	background-color:#333333;
+}
+
+section#informacao div#maeinfo {
+	width:980px;
+	height:400px;
+	margin:auto;
+	background-color:#333333;
+}
+
+section#informacao div#maeinfo div#info1 h1 {
+	font-size:30px;
+}
+
+section#informacao div#maeinfo h2,section#informacao div#maeinfo h1 {
+	color:#EFEDED;
+}
+
+section#informacao div#maeinfo p {
+	color:#888383;
+	line-height: 1.8;
+}
+
+section#informacao div#maeinfo div#info1 {
+	width:980px;
+	height:160px;
+	float:left;
+	padding-top:30px;
+	background-color:#333333;
+	
+}
+
+
+section#informacao div#maeinfo div#info2 {
+	width:310px;
+	height:190px;
+	float:left;
+	margin-top:20px;
+	background-color:#333333;
+}
+
+section#informacao div#maeinfo div#info3 {
+	width:310px;
+	height:190px;
+	float:left;
+	margin-top:20px;
+	margin-left: 25px;
+	background-color:#333333;
+}
+
+section#informacao div#maeinfo div#info4 {
+	width:310px;
+	height:190px;
+	float:left;
+	margin-top:20px;
+	margin-left: 25px;
+	background-color:#333333;
+}
+
+section#video {
+	width:100%;
+	height:600px;
+}
+
+
+section#outrasinfo {
+	width:100%;
+	height:540px;
+	background-color: #333333;
+}
+	
+
+section#outrasinfo div#paiinfo{
+	width:980px;
+	height:520px;
+	padding-top:10px;
+	margin:auto;
+	background-color: #333333;
+}
+
+section#outrasinfo div#paiinfo h2{
+	color:#EFEDED;
+}
+
+section#outrasinfo div#paiinfo p{
+	color:#888383;
+	line-height: 1.6;
+}
+
+section#outrasinfo div#paiinfo h2:hover {
+	color: rgba(237,22,81,1.0);
+	transition:0.5s;
+}
+
+section#outrasinfo div#paiinfo article#anita a,section#outrasinfo div#paiinfo article#ludmila a, section#outrasinfo div#paiinfo article#thiago a {
+	text-decoration:none;
+}
+
+section#outrasinfo div#paiinfo article#anita img {
+	border-radius: 30px;
+	box-shadow: 1px 1px 4px black;
+}
+
+section#outrasinfo div#paiinfo article#ludmila img {
+	border-radius: 30px;
+	box-shadow: 1px 1px 4px black;
+}
+
+section#outrasinfo div#paiinfo article#thiago img {
+	border-radius: 30px;
+	box-shadow: 1px 1px 4px black;
+}
+
+section#outrasinfo div#paiinfo article#anita {
+	width:315px;
+	height:500px;
+	float:left;
+	background-color: #333333;
+}
+
+
+
+section#outrasinfo div#paiinfo article#ludmila {
+	width:315px;
+	height:500px;
+	float:left;
+	background-color: #333333;
+	margin-left:17.5px;
+}
+
+section#outrasinfo div#paiinfo article#thiago {
+	width:315px;
+	height:500px;
+	float:left;
+	background-color: #333333;
+	margin-left:17.5px;
+}
+
+section#embranco {
+	width:100%;
+	height:600px;	
+}
+
+footer#rodape {
+	width:100%;
+	height:150px;
+	background-color:#333333;
+}
+
+footer#rodape div#maerodape {
+	width:980px;
+	height:120px;
+	margin:auto;
+	background-color: #333333;
+}
+
+footer#rodape div#maerodape div#logopeq {
+	width:300px;
+	height:80px;
+	float:left;
+	padding-top:40px;
+	background-color:#333333;
+	
+}
+
+footer#rodape div#maerodape div#telefone {
+	width:300px;
+	height:115px;
+	float:left;
+	padding-top:5px;
+	background-color:#333333;
+	margin-left:0px;
+	color:#EFEDED;
+	font-size:35px;
+}
+
+footer#rodape div#maerodape div#social img:hover {	
+	opacity:0.7;
+	transition:0.5s;
+
+	
+}
+
+footer#rodape div#maerodape div#social img:hover {	
+	opacity:0.7;
+	transition:0.5s;
+
+	
+}
+
+footer#rodape div#maerodape div#social {
+	width:300px;
+	height:100px;
+	float:left;
+	padding-top:20px;
+	background-color:#333333;
+	margin-left:40px;
+}
+
+footer#rodape div#maerodape div#social img {
+	width:90px;
+	height:90px;
+}
+
+footer#rodape div#maerodape div#social img {
+	width:90px;
+	height:90px;
+}
+
+footer#rodape div#copy {
+	width:100%;
+	height:28px;	
+	background-color:rgba(237,22,81,1.0);
+	color:#EFEDED;
+	text-align:center;
+	padding-top:2px;
+}
+
+/* Formatação de imagens com legendas */
+
+figure.foto-legenda {
+	position:relative;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+	width: 100%;
+	height: 100%;
+}
+
+figure.foto-legenda figcaption {
+	opacity: 0;
+	position:absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,0.6);	
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+	opacity: 1;
+}
